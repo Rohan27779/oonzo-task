@@ -1,0 +1,48 @@
+.sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px; /* Set the desired width of the sidebar */
+  background-color: #f7f7f775;
+  color: #fff;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Make the buttons circular */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button i {
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

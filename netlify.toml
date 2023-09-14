@@ -1,0 +1,6 @@
+[build]
+  publish = "dist/angular-ecom"
+
+[dev]
+    autoLaunch = false
+

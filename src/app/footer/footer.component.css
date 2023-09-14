@@ -1,0 +1,41 @@
+/* Footer Styles */
+.app-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0; /* Adjust vertical padding as needed */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Ensure it starts from the left edge */
+  right: 0; /* Ensure it extends to the right edge */
+  width: 100%; /* Ensure it spans the full width */
+  z-index: 2; /* Ensure it appears above other content */
+}
+
+.copyright {
+  font-size: 14px;
+  margin-left: 20px; /* Add some left margin to center the text */
+}
+
+.social-icons {
+  font-size: 20px;
+  margin-right: 20px; /* Add some right margin to center the icons */
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:last-child {
+  margin-right: 0; /* Remove margin from the last icon */
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
